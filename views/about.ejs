@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+  <%- include("./partials/head.ejs"); %>
+  <link rel="stylesheet" href="css/about.css">
+
+
+</header>
+
+<%- include("./partials/head.ejs"); %>
+
+<body>
+
+  <%- include("./partials/nav.ejs"); %>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="card border-0 shadow my-5">
+      <img class="Card-img-top" src="images/about1.jpg " alt="card image cap">
+      <div class="card-body">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/index">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-weight-dark mb-3" style="color: rgb(53, 45, 109);"> BeSafe About Page</h1>
+        <h6 style="font-size: large;"> BeSafe is a platform where Australian can access the web app to get updates on
+          Covid-19. There are a range of services provided on the BeSafe platform. BeSafe has been developed to
+          educate every Australian about Covid-19. We have a panoply of resources on preventive mesures to tackle
+          this deadly virus.
+
+          BeSafe furthermore is a platform where business can promote their products. This bring the whole comunity
+          stronger and also helps businesses to survive during
+          these though period of time.
+
+          If you want to post something related to your business, please register first!
+          <a href="/register">Link to register</a>
+
+        </h6>
+        <p class="lead mb-0">You've reached the end!</p>
+      </div>
+    </div>
+  </div>
+
+
+  <%- include("./partials/scripts.ejs"); %>
+  <%- include("./partials/footer.ejs"); %>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+
+    <%- include("./partials/head.ejs"); %>
+    <link rel="stylesheet" href="css/style.css">
+
+</header>
+
+<body>
+
+    <!-- navbar -->
+
+    <%- include("./partials/nav.ejs"); %>
+
+
+    <!-- Carousel Section -->
+
+    <div id="carousel" class="carousel slide hero-slides" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+                aria-current="true"></button>
+
+        </div>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active carousel-info1">
+                <div class="container h-100 d-md-block">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="caption">
+                                <h2>Connecting you to today`s key updates</h2>
+                                <p> Our blogs featuring healthy tips, expert advice, inspiring stories and support for
+                                    every Australian.
+                                </p>
+                                <a class="btn" href="#">Learn More </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-info2">
+                <div class="container h-100 d-md-block">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="caption">
+                                <h2>Get Vaccinated</h2>
+                                <p> The latest news and information about the COVID-19 vaccines in Australia
+                                </p>
+                                <a class="btn" href="#">Find out more about COVID-19 Vaccines </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Section services -->
+
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-header text-center">
+                        <h2>our services</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="single-service">
+                        <div class="content">
+                            <h3>Health & Wellbeing</h3>
+                            <p>BeSafe offers resources to help you and your family cope during this stressful time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-service">
+                        <div class="content">
+                            <h3>Vaccine</h3>
+                            <p>Information about Coronavirus vaccines and getting vaccinated to your nearest testing
+                                center.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-service">
+                        <div class="content">
+                            <h3>Infection prevention control</h3>
+                            <p> To educate people on infection prevention control at work, at home and in the local
+                                community</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-service">
+                        <div class="content">
+                            <h3>Business and Industry</h3>
+                            <p>Information and support for every type of business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hotline Section -->
+    <section class="banner">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row align-items-center">
+                <!-- col -->
+                <div class="col-lg-6">
+                    <div class="banner-content">
+                        <h5 class="cate">Stay Home, Stay Safe</h5>
+                        <h1 class="title ">Protect Yourself From Coronavirus (COVID-19) </h1>
+                        <p class="sub-title">
+                            Prevention is better than cure !
+                        </p>
+                        <div class="banner-button-group">
+                            <button type="button" class="btn btn-lg"></i>Hotline <i class="fa fa-phone"></i> 1800 020
+                                080 </i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="banner-thumb-15">
+                        <img src="images/banner.png" alt="banner">
+                    </div>
+                </div>
+                <!-- /col -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </section>
+
+    <!-- Latest blog Posts Section -->
+    <section class="latest-blog-section">
+
+        <div class="container">
+            <div class="blog-section">
+                <h2 class="text-center">Latest Blog Posts</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="images/stayathome.jpg" class="img-fluid" />
+                            
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Activities during the lockdown</h5>
+                            <p class="card-text">
+                               Diwas share some of the activities he enjoy during the pandemic with his family. 
+                            </p>
+                            <a href="#!" class="btn btn-primary">Learn More </a>
+                        </div>
+                        <div class="card-footer text-muted"> 1 day ago by Diwas Poudel</div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="images/distance.jpg" class="img-fluid" />
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">What Preventive Measures?</h5>
+                            <p class="card-text">
+                                Some preventive measures tips during the Lockedown.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Learn More</a>
+                        </div>
+                         <div class="card-footer text-muted"> 2 days ago by Shuo Flora</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="images/food-delivery.jpg" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">How to cope with Food Delivery?</h5>
+                            <p class="card-text">
+                                Local business is ensuring proper safety measures are taken when food gets delivered to their customers.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Learn More</a>
+                        </div>
+                        <div class="card-footer text-muted">2 days ago by Vivek</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination section  -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination pagination-lg justify-content-center pt-3">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+
+
+    <%- include("./partials/scripts.ejs"); %>
+    <%- include("./partials/footer.ejs"); %>
+
+
+
+
+
+
+</body>
+
+</html>
