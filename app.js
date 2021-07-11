@@ -57,6 +57,10 @@ app.get("/register", (req, res) => {
     res.render("register");
 });
 
+app.get("/admin", (req, res) => {
+    res.render("admin");
+});
+
 app.use("/", routes);
 
 
